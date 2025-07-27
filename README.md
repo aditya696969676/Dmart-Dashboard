@@ -1,34 +1,65 @@
-DMart Sales and Customer Insights Dashboard
-Overview
-This repository contains the source files and documentation for a Power BI dashboard designed to analyze DMart sales, customer, and order data. The dashboard provides actionable insights through visualizations such as sales trends, delivery time metrics, and customer demographics. It leverages DAX for custom measures and Power Query for data cleaning, ensuring accurate and dynamic reporting.
+# 🛒 DMart Sales and Customer Insights Dashboard
 
-Features
-Visualizations including sales trends, average delivery times, and payment method analysis.
-DAX measures to calculate average delivery time and filter out cancelled orders.
-Data cleaning in Power Query to resolve date inconsistencies and prepare datasets.
-Interactive slicers for filtering by payment methods, dates, and other dimensions.
-Data Sources
-Product Table: Contains product details (ID, Name, MRP, Category, etc.).
-Order Details Table: Includes order information (Order ID, Dates, Payment Method, etc.).
-Customer Table: Holds customer data (ID, Age, Gender, State, etc.).
-Data is sourced from DMart operational records (sample data included).
-Setup Instructions
-Install Power BI Desktop: Download and install the free version from powerbi.microsoft.com.
-Download Repository: Clone or download this repository to your local machine.
-Open the Project: Load the .pbix file (Power BI project file) in Power BI Desktop.
-Update Data (Optional): Replace the sample data with your DMart dataset by connecting to the data source via the Power Query Editor.
-Refresh Data: Click Refresh in Power BI to load the latest data.
-Usage
-Navigate the dashboard to explore sales performance, customer insights, and delivery efficiency.
-Use slicers to filter data by payment method, year, or region.
-Customize visuals by adjusting measures or adding new ones in the DAX editor.
-Technologies Used
-Power BI: For dashboard creation and visualization.
-DAX: For calculating measures like average delivery time.
-Power Query: For data cleaning and transformation.
-Contributing
-This project is for personal use and learning purposes. Contributions are welcome—feel free to fork the repository, make improvements, and submit pull requests.
+This repository contains the Power BI dashboard and supporting files for analyzing **DMart’s sales, customers, and order data**. The dashboard provides dynamic, interactive insights into sales performance, delivery efficiency, and customer demographics using Power BI, DAX, and Power Query.
 
-Credits
-Developed by [Your Name] as a portfolio project.
-Built on data from DMart (sample dataset used for demonstration).
+---
+
+## 📊 Features
+
+- 📈 **Sales Trends**: Time-based visualizations of revenue performance.
+- ⏱️ **Average Delivery Time**: Measured using custom DAX formulas.
+- 💳 **Payment Method Analysis**: Breakdown of payment preferences.
+- 🧹 **Clean Data**: Handled missing or inconsistent entries using Power Query.
+- 🎛️ **Interactive Filters**: Slicers for dates, payment types, and customer segments.
+
+---
+
+## 🗂️ Data Sources
+
+- **Product Table** – Product ID, Name, MRP, Category, etc.  
+- **Order Details Table** – Order ID, Order/Delivery Dates, Payment Method, Status  
+- **Customer Table** – Customer ID, Age, Gender, State, etc.  
+> 📌 *All data used is sample DMart operational data.*
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Install Power BI Desktop**  
+   Download from: [powerbi.microsoft.com](https://powerbi.microsoft.com)
+
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/dmart-dashboard.git
+3. Open the Dashboard
+4. Load the .pbix file in Power BI Desktop.
+
+(Optional) Load Your Own Data
+Use Power Query Editor to connect and map your DMart dataset.
+
+Refresh the Data
+Click Refresh in Power BI to update visuals with live data.
+
+🚀 Usage
+Explore delivery patterns, regional sales, and customer profiles.
+
+Use slicers to filter data by state, gender, year, or payment type.
+
+Customize DAX measures for additional KPIs as needed.
+
+🛠️ Technologies Used
+Tool	Purpose
+Power BI	Visualizations and dashboard creation
+DAX	Custom calculations (e.g., delivery time)
+Power Query	Data cleaning and transformation
+
+🤝 Contributing
+This project is intended for learning and portfolio use.
+Feel free to fork, improve, and submit pull requests to contribute.
+
+👤 Credits
+Developed by Aditya Garg as part of a data analytics portfolio.
+
+Based on sample data simulating DMart operations.
+
+📅 Last updated: July 27, 2025 – 02:58 PM IST
